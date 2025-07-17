@@ -11,7 +11,7 @@ function App() {
   const [text, setText] = useState('');
   const [encryptedText, setEncryptedText] = useState('');
 
-  const backendUrl = 'http://localhost:5000';
+  const backendUrl = 'https://cyberguard-backend.onrender.com';
 
   const checkPassword = async () => {
     const res = await axios.post(`${backendUrl}/check_password`, { password });

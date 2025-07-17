@@ -1,0 +1,22 @@
+
+# General
+.DS_Store
+node_modules/
+.env
+
+# Python
+__pycache__/
+venv/
+*.pyc
+
+# React
+/frontend/build/
+
+# VSCode
+.vscode/
+
+# Logs
+*.log
+
+# OS files
+Thumbs.db
